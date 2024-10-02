@@ -3,23 +3,29 @@ title: "Lab 6: Quarto Presentation"
 author: "Pablo Curiel"
 format: revealjs
 editor: visual
+bibliography: refs.bib
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   This reference describes a CNN used for image segmentation that I am working on modifying for my work [@unet].
 
-## Bullets
+-   This reference describes a method that speeds up NN training by ensuring that the the inputs to each layer come from a relatively similar distribution [@BN].
 
-When you click the **Render** button a document will be generated that includes:
+-   This reference is a paper from META that describes their attempt at a foundation model for image segmentation [@SAM].
 
--   Content authored with markdown
--   Output from executable code
+## A Cool Equation or Two
 
-## Code
+-   Euler's identity
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+$$
+e^{i \pi} - 1 = 0
+$$
 
-```{r}
-1 + 1
-```
+-   Basic NN function
+
+$$
+\vec{z} = \sigma(\vec{y}) =  \sigma (W\vec{x} + \vec{b})
+$$
+
+## References
